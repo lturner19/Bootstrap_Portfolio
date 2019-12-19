@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661");
+}
+
+header    {
+    border-bottom: solid #cccccc;
+    background: #ffffff;
+    width: 100%;
+    height: 110px;
+}
+
+.wrapper{
+    width: 980px;
+    margin: 0 auto;  
+    min-height: 100%;
+	height: 100%;
+	
+}
+@media screen and (min-width:980px){
+
+.nav-wrapper {
+    text-decoration: none;
+    list-style: none;
+    justify-content: flex-end; 
+  }
+  
+}
+
+@media (min-width:641px) and (max-width:979px) {
+    .nav-wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .nav-wrapper{
+        justify-content: center;
+    }
+}
+
+.navbar-text{
+    font-size: 35px;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    background: #4aaaa5;
+    color: #ffffff !important;
+    padding: 5px;   
+}
+
+
+
+.container-xs {
+    background: #ffffff;
+    border: 5px solid #eeeeee;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 955px !important;
+    margin-bottom: 40px;
+    min-height: calc(100vh - 40px);
+}
+/* Code for the about page*/
+
+.row2 {
+    margin-top: 12px; 
+    margin-left: -40px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-weight: bold;
+    overflow: auto; 
+    padding: 15px;
+    text-align: left;       
+}
+
+.img-thumbnail {
+    position: relative;
+    float: left;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    overflow: auto;
+}
+
+p {
+    text-align: justify;
+    width: 90%;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px; 
+}
+
+.title {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 17px;
+    width: 180px;
+    text-align: center;
+    position: absolute;
+    margin: 129px;
+    margin-left: 10px;
+    padding: 10px;
+}
+/*code for the contact page*/
+.submit a {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    margin: 10px; 
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #777777;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center; 
+    height: 40px;
+    margin: -25px;
+}

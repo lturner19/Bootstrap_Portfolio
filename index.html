@@ -1,50 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <Title>Leandra's Portfolio</Title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<html lang="en-us">
+  <head>
+      <meta charset="UTF-8">
+      <Title>Responsive Portfolio</Title>
+      <link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale:1.0">
     </head>
 
-    <body>
-      <Header>
-        <div class="head-title">
-       <!--This will manage the header at the top of the page-->
-          <label id="name">Leandra Turner</label>
-            <ul>
-              <li><a style="text-decoration: none" href="contact.html">Contact</a></li>
-              <li><a style="text-decoration: none" href="portfolio.html" id="link">Portfolio</a></li>
-              <li><a style="text-decoration: none" href="index.html" id="link">About</a></li>
-            </ul>
+  
+    <header>
+      <div class="wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-text">Leandra Turner</span>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          
         </div>
-      </Header>
-                  
-        <div class="container">
-          <section id="about-me">
-            <h1>About Me</h1>
-          </section>
-            
-        <hr>
+      </nav>
+      </div>
+   </header>
 
-        <section id="my-bio">
-          <img id="bio-img" src="assets/images/Leandra-Profile.jpg" alt="Leandra profile image">     
-            <p>Leandra Turner recieved her BA degree in Biology from Concordia Univeristy Texas in 2006. Thereafter, she began working for Ascension Health, formerly Seton Healthcare Network, in the Histology department.
-                While there she earned her certification as a Histology Technician in 2009 and was able to perform various aspects of histology to include:routine histology, muscle enzyme histochemistry, electron microscopy, immunohistochemistry.
-            </p> 
-            <p>She currently works in a Mohs dermatology clinic in Austin,TX, and is simutanousely taking a web development bootcamp course. She will finish the Triology Educations Services' Full-Stack Coding Bootcamp, through the University of Texas at Austin, in June 2019.
-               After graduating she plans to pursue a career in the coding field.
-            </P>
-            <p>Leandra prefers to spend her free time involved with her favorite, and only, dog Callie.  She also enjoys to try her hand at various hobbies that include: baking, knitting, gardening, and flower arranging.
-               She also has a passion for fashion and has been known to be a "personal stylist" for her friends and family.
-            </p>
-         </section>
+   <div class="container-xs container-sm container-md container-lg container-xl">
+     <div class="row1">
+       <div class="col-lg-12">
+         <div class="row2">
+           <div class="col-lg-12 text-info"><h2>About Me</h2></div>
+         </div>    
+    
+    <hr>
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="img-thumbnail" src="assets/images/Leandra-Profile.jpg">
         </div>
+        <div class="col-lg-9">
+          <p>Leandra Turner recieved her BA degree in Biology from Concordia Univeristy Texas in 2006. Thereafter, she began working for Ascension Health, formerly Seton Healthcare Network, in the Histology department.
+             While there she earned her certification as a Histology Technician in 2009 and was able to perform various aspects of histology to include:routine histology, muscle enzyme histochemistry, electron microscopy, immunohistochemistry.
+          </p> 
+          <p>She currently works in a Mohs dermatology clinic in Austin,TX, and is simutanousely taking a web development bootcamp course. She will finish the Triology Educations Services' Full-Stack Coding Bootcamp, through the University of Texas at Austin, in June 2019.
+             After graduating she plans to pursue a career in the coding field.
+          </P>
+          <p>Leandra prefers to spend her free time involved with her favorite, and only, dog Callie.  She also enjoys to try her hand at various hobbies that include: baking, knitting, gardening, and flower arranging.
+             She also has a passion for fashion and has been known to be a "personal stylist" for her friends and family.
+          </p> 
+        </div>
+      </div>
+    </div> 
+  </div> 
+</div>
 
-      <footer>
-        <div class="clearfix">
-          copyright &copy;
-        </div>
-      </footer>
-       
-    </body>
+    <footer class="fixed-bottom">
+      <div class="clearfix">
+        copyright &copy;
+      </div>
+    </footer>
+
+         <!--This should be put down here at the ending because you want it to wait while the page loads (html/css)-->
+         <!--The first link was taken from the JQuery website-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>​
+        <!--This is a duplication of the link placed in the file link tag at the beginning of the html-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
