@@ -1,6 +1,6 @@
 Alt-H1 Leandra Turner's Portfolio
 
-##Descripton
+Descripton
 
 This is a portfolio of the work created while attending the Triology Educations Services' Full-Stack Coding Bootcamp.
 The purpose of this portfolio is to 
