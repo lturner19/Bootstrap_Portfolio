@@ -1,58 +1,44 @@
 *{
     box-sizing: border-box;
 }
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
+/*The above code allows elements to be in a more uniform look*/
 
 body {
     background-image: url("https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661");
 }
 
-header    {
+
+/*
+header{
     border-bottom: solid #cccccc;
     background: #ffffff;
     width: 100%;
     height: 110px;
 }
-
-.wrapper{
+*/
+.container-nav{
+    width: 100%;
     width: 980px;
     margin: 0 auto;  
     min-height: 100%;
 	height: 100%;
-	
 }
-@media screen and (min-width:980px){
+.wrapper{
+   
+}
 
 .nav-wrapper {
     text-decoration: none;
     list-style: none;
-    justify-content: flex-end; 
-  }
-  
 }
 
-@media (min-width:641px) and (max-width:979px) {
-    .nav-wrapper {
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width:640px) {
-    .nav-wrapper{
-        justify-content: center;
-    }
-}
-
-.navbar-text{
+h1 {
     font-size: 35px;
     font-family: "Georgia", Times, "Times New Roman", serif;
     background: #4aaaa5;
     color: #ffffff !important;
-    padding: 5px;   
+    padding: 10px;   
+    
 }
 
 
@@ -73,11 +59,13 @@ header    {
 .row2 {
     margin-top: 12px; 
     margin-left: -40px;
+    
 }
 
 h2 {
     font-size: 30px;
     font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #4aaaa5;
     font-weight: bold;
     overflow: auto; 
     padding: 15px;
@@ -97,6 +85,7 @@ p {
     text-align: justify;
     width: 90%;
 }
+/* code for the portfolio page*/
 
 .img{
     width: 200px;
@@ -117,6 +106,7 @@ p {
     padding: 10px;
 }
 /*code for the contact page*/
+
 .submit a {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -129,7 +119,10 @@ p {
     margin: 10px; 
 }
 
-.footer {
+/* The "sticky footer" code was used from https://codeconvey.com/simple-css-sticky-footer/*/
+
+
+footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     color: #777777;
@@ -137,4 +130,24 @@ p {
     text-align: center; 
     height: 40px;
     margin: -25px;
+}
+
+/*media queries go at the bottom of the code, since code is read from top to bottom when loading*/
+
+@media screen and (min-width:980px){
+   .nav-wrapper{
+    justify-content: flex-end; 
+  }
+}
+
+@media (min-width:641px) and (max-width:979px) {
+    .nav-wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .nav-wrapper{
+        justify-content: center;
+    }
 }
