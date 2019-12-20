@@ -1,9 +1,11 @@
 # Portfolio
 
 ## Description
-⋅⋅⋅This portfolio showcases my ability to use HTML, CSS, and Bootstrap 4 to create a responsive website.
-⋅⋅⋅As the pages are viewed on different screen sizes, users will not that certain elements will move to accomodate the new size.
-⋅⋅⋅It was created while attending the Triology Education Services' Full-Stack Coding Bootcamp.
+This portfolio showcases my ability to use HTML, CSS, and Bootstrap 4 to create a responsive website.
+
+As the pages are viewed on different screen sizes, users will not that certain elements will move to accomodate the new size.
+
+It was created while attending the Triology Education Services' Full-Stack Coding Bootcamp.
 
 ## Table of Contents
 
@@ -22,7 +24,7 @@ To clone to a local computer of my GitHub repository, please see the below link 
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 However, to simply view the page please go to:
-www.lturner19.github.io
+lturner19.github.io
 
 ## Usage
 
@@ -45,7 +47,6 @@ The following programs and websites were used to code the pages within this port
 ## Badges
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
-
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
  ## Contributing
