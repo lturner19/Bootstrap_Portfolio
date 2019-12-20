@@ -12,7 +12,7 @@ The purpose of this portfolio is to
 
 ##Installation
 
-No installion required.
+
 
 ##Usage
 
@@ -22,9 +22,9 @@ To showcase works created while attending the bootcamp.
 
 The following following resources were used to code the pages within this portfolio.
 
-Bootstrap
+..*Bootstrap
 
-Codecademy
+..*Codecademy
 
 Unsplash.com
 
