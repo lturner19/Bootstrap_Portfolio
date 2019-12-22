@@ -19,7 +19,7 @@ There are three (3) internal links that will take the user to the following page
 
 ## Installation
 
-To clone to a local computer of my GitHub repository, please see the below link for instructions on how to clone a repository.
+To clone a copy of my GitHub repository to a local computer, please see the below link for instructions on how to clone a repository.
 
 https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
