@@ -2,10 +2,9 @@
 
 ## Description
 This portfolio showcases my ability to use HTML, CSS, and Bootstrap 4 to create a responsive website.
+ A reponsive website allows users to have an optimized browsing experince when using devices with various screen sizes such as a tablet, cellphone, desktop, etc.
 
-As the pages are viewed on different screen sizes, users will not that certain elements will move to accomodate the new size.
-
-It was created while attending the Triology Education Services' Full-Stack Coding Bootcamp.
+This portfolio has been created while attending the Triology Education Services' Full-Stack Coding Bootcamp.
 
 ## Table of Contents
 
@@ -28,7 +27,7 @@ lturner19.github.io
 
 ## Usage
 
-This project can to used as an example on how to create a responsive website.
+This project can to used as an example for how to create a responsive portfolio.
 
 ## Credits
 
@@ -48,7 +47,9 @@ The following programs and websites were used to code the pages within this port
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
  ## Contributing
 
  ## Tests

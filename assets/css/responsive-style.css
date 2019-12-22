@@ -27,9 +27,7 @@ header{
     list-style: none;   
     margin-top: 26px; 
     margin-left: 400px;
-  
 }
-
 
 .navbar-text {
     font-size: 35px;
@@ -132,12 +130,10 @@ footer {
     width: 100%;
     padding: 15px 0px;
 }
+
 /*media queries go at the bottom of the code, since code is read from top to bottom when loading*/
 
 /* Greater than 980px = Desktop*/
-
-
-
 
 @media (min-width:641px) and (max-width:768px) {
     
@@ -146,6 +142,7 @@ footer {
     }
     .navbar{
         margin-left: 60px;
+        w
     }
     header{
         margin-bottom: 100px;
@@ -158,14 +155,11 @@ footer {
         margin: 0 auto;
         width: 100%;
         text-align: center;
+        justify-content: center;
     }
     header{
         margin-bottom: 100px;
   }
 }
 
-@media screen and (max-width: 580px){
-    .navbar-text{     
-  }
 
-}
